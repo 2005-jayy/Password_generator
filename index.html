@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+  </head>
+  <body>
+    <h1>Password Generator</h1>
+
+    <div>
+      <label>
+        Length:
+        <input type="number" id="length" min="4" max="20" value="12" />
+      </label>
+    </div>
+
+    <div>
+      <label><input type="checkbox" id="uppercase" /> Include Uppercase</label
+      ><br />
+      <label><input type="checkbox" id="lowercase" /> Include Lowercase</label
+      ><br />
+      <label><input type="checkbox" id="numbers" /> Include Numbers</label
+      ><br />
+      <label><input type="checkbox" id="symbols" /> Include Symbols</label
+      ><br />
+    </div>
+
+    <button id="generate">Generate Password</button>
+
+    <h2>Your Password:</h2>
+    <div id="result" style="font-weight: bold"></div>
+    <button>
+      <img
+        id="copyBtn"
+        src="https://cdn-icons-png.flaticon.com/512/60/60525.png"
+        alt="Copy"
+        width="24"
+        style="cursor: pointer"
+      />
+    </button>
+    <script src="script.js"></script>
+  </body>
+</html>
