@@ -21,3 +21,4 @@ This project was built as a hands-on exercise to improve my JavaScript DOM manip
 -CSS3
 
 -JavaScript (Vanilla)
+LINK:https://2005-jayy.github.io/Password_generator/
